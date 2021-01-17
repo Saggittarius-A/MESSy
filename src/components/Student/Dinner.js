@@ -23,8 +23,18 @@ function Dinner(){
               <div class="content">
               <div className="title">Add-On</div>
               <div>
-           {
-     }
+              <ul>
+                       <li className="list-group-item text-capitalize d-flex justify-content-between my-2"><strong>Sahi Panner</strong>
+                           <button>..Eat..</button>
+                         </li>
+                         <li className="list-group-item text-capitalize d-flex justify-content-between my-2"><strong>Anda Curry</strong>
+                           <button>..Eat..</button>
+                         </li>
+                         <li className="list-group-item text-capitalize d-flex justify-content-between my-2">
+                           <strong>Mushroom</strong>
+                           <button>..Eat..</button>
+                           </li>
+                       </ul>
           </div>
            
               </div>

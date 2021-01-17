@@ -26,8 +26,18 @@ function Lunch(){
                 <div class="content">
                 <div className="title">Add-On</div>
                 <div>
-            {
-      }
+                <ul>
+                       <li className="list-group-item text-capitalize d-flex justify-content-between my-2"><strong>Khichadi</strong>
+                           <button>..Eat..</button>
+                         </li>
+                         <li className="list-group-item text-capitalize d-flex justify-content-between my-2"><strong>egg rice</strong>
+                           <button>..Eat..</button>
+                         </li>
+                         <li className="list-group-item text-capitalize d-flex justify-content-between my-2">
+                           <strong>Mutton</strong>
+                           <button>..Eat..</button>
+                           </li>
+                       </ul>
            </div>
                 </div>
             </div>

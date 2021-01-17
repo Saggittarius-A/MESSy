@@ -13,6 +13,9 @@ import MessMenu from './MessMenu';
 import Breakfast from './components/Student/Breakfast';
 import Dinner from './components/Student/Dinner';
 import Lunch from './components/Student/Lunch';
+import Add from './components/Mess_Member/Add';
+import Addd from './components/Mess_Member/Addd';
+import Addl from './components/Mess_Member/Addl';
 import ResultsB from './components/Mess_Member/ResultsB';
 import ResultsD from './components/Mess_Member/ResultsD';
 import ResultsL from './components/Mess_Member/ResultsL';
@@ -38,6 +41,9 @@ const history = createBrowserHistory();
           <Route path='/Lunch' component={Lunch}/>
           <Route path='/Dinner' component={Dinner}/>
           <Route path='/ResultsB' component={ResultsB}/>
+          <Route path='/Add' component={Add}/>
+          <Route path='/Addd' component={Addd}/>
+          <Route path='/Addl' component={Addl}/>
           <Route path='/ResultsD' component={ResultsD}/>
           <Route path='/ResultsL' component={ResultsL}/>
           <Route path='/MessMenu' component={MessMenu}/>

@@ -5,7 +5,7 @@ import './index.css';
 
 function Breakfast()
 {
-  var itemsBa;
+  var itemsBa,itemABa;
    var itemsB=localStorage.getItem('itemsBr');
    if(itemsB!=null)
      itemsBa=itemsB.split(',');
@@ -23,14 +23,18 @@ function Breakfast()
                   <div class="content">
                   <div className="title">Add-On</div>
                   <div>
-                      {/* {itemsBa.map(item => {
-                        return (
-                          <TodoItem1
-                            title={item}  
-                          />
-                        );
-                      })
-                      } */}
+                       <ul>
+                       <li className="list-group-item text-capitalize d-flex justify-content-between my-2"><strong>Aloo Paratha</strong>
+                           <button>$2 Add</button>
+                         </li>
+                         <li className="list-group-item text-capitalize d-flex justify-content-between my-2"><strong>Egg BHUji</strong>
+                           <button>$2 Add</button>
+                         </li>
+                         <li className="list-group-item text-capitalize d-flex justify-content-between my-2">
+                           <strong>Roasted Chicken</strong>
+                           <button>$3 Add</button>
+                           </li>
+                       </ul>
                   </div>
                   </div>
               </div>
