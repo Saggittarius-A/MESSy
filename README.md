@@ -1,3 +1,12 @@
+### Idea
+Our Main Idea Behind this project is to reduce the wastage of food in Hostel Mess and in the times of COVID allow students to go contact free by selecting the items they wish to eat through this website .
+In this Web-app Mess Committee will Update the Menu of each day and from that provided menu each Student will choose  the Food Items they will eat and we will store the count of student for Each food Item.
+In this way Mess Committee will get to know about the count of student eating a Particular  food item and then they will prepare Accordingly.
+Mess Committee will also have the count of students, Who are not eating Mess Food that Day.
+
+
+
+
 ### About
 
 This project is created for HackNITp.
@@ -8,6 +17,9 @@ https://files.fm/iit2019017/f/mw6cgeezd#;play
 Website hosted(This is the Previous version of this project :( But for current version you can see our video and we will publish newer version also :) ).
 https://unmess.herokuapp.com/
 
+Presentation Link:
+https://files.fm/f/v6u2dh3hp
+Also present in code.
 
 ### Block Diagram 
 
