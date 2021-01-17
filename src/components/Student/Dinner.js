@@ -23,13 +23,7 @@ function Dinner(){
               <div class="content">
               <div className="title">Add-On</div>
               <div>
-           {itemsDa.map(item => {
-         return (
-           <TodoItem1
-             title={item}  
-           />
-         );
-       })
+           {
      }
           </div>
            

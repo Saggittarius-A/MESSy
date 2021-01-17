@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'font-awesome/css/font-awesome.min.css';
 
 export default class TodoInput extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class TodoInput extends Component {
             <input
               type="text"
               className="form-control text-capitalize"
-              placeholder="add a todo item"
+              placeholder="add a Menu item"
               value={item}
               onChange={handleChange}
             />

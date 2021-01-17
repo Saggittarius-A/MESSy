@@ -26,13 +26,7 @@ function Lunch(){
                 <div class="content">
                 <div className="title">Add-On</div>
                 <div>
-            {itemsLa.map(item => {
-          return (
-            <TodoItem1
-              title={item}  
-            />
-          );
-        })
+            {
       }
            </div>
                 </div>

@@ -23,14 +23,14 @@ function Breakfast()
                   <div class="content">
                   <div className="title">Add-On</div>
                   <div>
-                      {itemsBa.map(item => {
+                      {/* {itemsBa.map(item => {
                         return (
                           <TodoItem1
                             title={item}  
                           />
                         );
                       })
-                      }
+                      } */}
                   </div>
                   </div>
               </div>

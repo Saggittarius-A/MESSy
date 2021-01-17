@@ -18,6 +18,8 @@ import ResultsD from './components/Mess_Member/ResultsD';
 import ResultsL from './components/Mess_Member/ResultsL';
 import MessMenu1 from './MessMenu1';
 import MessMenu2 from './MessMenu2';
+import 'font-awesome/css/font-awesome.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
    

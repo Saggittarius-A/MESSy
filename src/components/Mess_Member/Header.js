@@ -7,7 +7,6 @@ function Header() {
   return (
     
     <div className="headerfood row">
-      <div className="column-c">
       <div className="rowblock ">
       <Link to="/MessMenu1">
       <h1 className="food btn-food">Breakfast</h1>
@@ -18,10 +17,9 @@ function Header() {
       </Link>
       <Link to="/MessMenu1">
       <h1 className="food">Add-on</h1>
+      <button className="btn-food-result">00</button>
       </Link>
       </div>
-      </div>
-      <div className="column-c">
       <div className="rowblock ">
       <Link to="/MessMenu">
     <h1 className="food btn-food">Lunch</h1>
@@ -31,9 +29,10 @@ function Header() {
      </Link>
      <Link to="/MessMenu">
      <h1 className="food">Add-on</h1>
+     <button className="btn-food-result">00</button>
      </Link>
-   </div></div>
-   <div className="column-c">
+   </div>
+   
    <div className="rowblock "> 
    <Link to="/MessMenu2"> 
       <h1 className="food btn-food">Dinner</h1>
@@ -43,8 +42,9 @@ function Header() {
       </Link>
       <Link to="/MessMenu2">
       <h1 className="food">Add-on</h1>
+      <button className="btn-food-result">00</button>
       </Link>
-      </div>
+     
     </div>
  </div>
     
