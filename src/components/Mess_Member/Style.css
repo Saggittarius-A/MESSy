@@ -1,0 +1,83 @@
+.food{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+   padding: 20px 20px 20px 20px;
+   border-radius: 10px;
+    background-color: rgb(181, 240, 72);
+  }
+
+  .food:hover{
+    background-color: rgb(190, 238, 15);
+  }
+ 
+
+  .member{
+    background:#d9df87;
+    padding-top:20px;
+    padding-bottom: 50px;
+    
+  }
+
+  button{
+    float: initial;
+  align-items: centre;
+  }
+
+  .welcome{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    grid-area: header;
+    font-size: 2.5rem;
+    padding:20px;
+    color:black;
+  }
+
+  .column-c{
+    float: left;
+    width: 30%;
+    
+    padding: 20px;
+    background:#d9df87;
+    
+    
+  }
+  .rowblock{
+    background-color:  #c3d613;
+    margin-top:0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  
+ 
+  /* .btn-food{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  } */
+
+  .btn-food-result{
+    background-color: rgb(181, 240, 72);
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 2% 40%;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
